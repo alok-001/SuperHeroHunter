@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Hunter</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/superhero-style.css'>
+    <link rel="icon" type="image/png" href="assets/icon.png ">
+    <script src="https://kit.fontawesome.com/c2e4f2d141.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="nav-box">
+        <div id="navBar">
+            <div class="navElement">
+                <i class="fas fa-home"></i>
+                <a href="index.html">Home</a>
+            </div>
+            <div class="navElement">
+                <i class="fas fa-heart"></i>
+                <a href="favourite.html">Favourites</a>
+            </div>
+        </div>
+
+        <!--bottom left cornor to show notifications to user for adding and removal of fav item -->
+
+        <div id="notification-div">
+            <!-- Error -->
+        </div>
+    </div>
+
+    <!-- Box have superhero image,name and skills -->
+
+    <section id="mainInfo">
+        <div class="heroImgContainer">
+            <img id="mainHeroImg" class="hero-img" src="assets/imgErr.jpg" alt="">
+        </div>
+        <div class="superHeroDetails">
+            <div id="heroName" class="super-heroName">Super Hero</div>
+            <div id="favBtn"></div>
+            <div class="power-stats">
+
+                <div class="skillProgress">
+                    <div id="combat" class="skill-color-red skill-strength-60 skillRadius">
+                        <span class="skillName">Combat</span>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div id="power" class="skill-color-purple  skillRadius">
+                        <span class="skillName">Power</span>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div id="durability" class="skill-color-green  skillRadius">
+                        <span class="skillName">Durability</span>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div id="speed" class="skill-color-yello skillRadius">
+                        <span class="skillName">Speed</span>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div id="strength" class="skill-color-orange skillRadius">
+                        <span class="skillName">Strength</span>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div id="intelligence" class="skill-color-blue skillRadius">
+                        <span class="skillName">Intelligence</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--Hero biography -->
+
+    <section class="detailsSection">
+        <div class="bottomMargin20px section-heading">BIOGRAPHY</div>
+        <div id="hero-biography">
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Full Name : </span>
+                <span class="bottomMargin20px" id="full-name">Mr. Human</span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Alter-Egos :</span>
+                <span class="bottomMargin20px" id="alter-egos">
+                    Homo Sapien Monkey
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Aliases : </span>
+                <span class="bottomMargin20px" id="aliases">
+                    Mr Human
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Place of birth : </span>
+                <span class="bottomMargin20px" id="place-of-birth">
+                    Earth
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">First Appearance : </span>
+                <span class="bottomMargin20px" id="first-appearance">
+                    Comic #1
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Publisher : </span>
+                <span class="bottomMargin20px" id="publisher">
+                    Marvel
+                </span>
+            </div>
+
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Alignment : </span>
+                <span class="bottomMargin20px" id="alignment">
+                    Good
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hero appearance -->
+
+    <section class="detailsSection color-bg-blue">
+        <div class="bottomMargin20px section-heading">APPEARANCE</div>
+        <div id="hero-biography">
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Gender : </span>
+                <span class="bottomMargin20px" id="gender">M</span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Race : </span>
+                <span class="bottomMargin20px" id="race">
+                    Human
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Height : </span>
+                <span class="bottomMargin20px" id="height">
+                    5 10
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Weight : </span>
+                <span class="bottomMargin20px" id="weight">
+                    80kg
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Eye Color : </span>
+                <span class="bottomMargin20px" id="eye-color">
+                    black
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Hair Color : </span>
+                <span class="bottomMargin20px" id="hair-color">
+                    red
+                </span>
+            </div>
+
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Alignment : </span>
+                <span class="bottomMargin20px" id="alignment">
+                    Good
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Hero Work -->
+
+
+    <section class="detailsSection">
+        <div class="bottomMargin20px section-heading">WORK</div>
+        <div id="hero-biography">
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Occupation : </span>
+                <span class="bottomMargin20px" id="occupation">
+                    Plumber
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Base :</span>
+                <span class="bottomMargin20px" id="base">
+                    Home
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero connections -->
+
+
+    <section class="detailsSection color-bg-blue">
+        <div class="bottomMargin20px section-heading">CONNECTIONS</div>
+        <div id="hero-biography">
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Group Affiliation : </span>
+                <span class="bottomMargin20px" id="group-affiliation">
+                    Avengers
+                </span>
+            </div>
+            <div class="bottomMargin20px">
+                <span class="lessImportant">Relatives :</span>
+                <span class="bottomMargin20px" id="relatives">
+                    Wife
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="scripts/superhero-scripts.js"></script>
+</body>
+</html>
