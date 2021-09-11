@@ -1,0 +1,252 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    background-color: rgb(11, 16, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    /* background-image: url("https://d.ibtimes.co.uk/en/full/1435261/hubble-25th-anniversary-image.jpg?w=1180&f=45903b27196606d121cc8942a4fbf57d"); */
+}
+
+#favBtn{
+    color: red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling of Navigation bar */
+
+#nav-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+#navBar{
+    left: 0px;
+    right: 0px;
+    display: flex;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+.navElement{
+    margin: 0px 20px;
+}
+
+
+#mainInfo{
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 98%;
+    background-size: contain;
+    background-size: cover;
+    background-image: url("https://i.natgeofe.com/k/a2a738a9-e019-4911-98e6-17f31c45ac88/milky-way-2_2x1.jpg");
+}
+
+.heroImgContainer{
+    align-self: center;
+    width: 30%;
+    
+}
+
+.hero-img{
+    border-radius: 50px;
+    width: 100%;
+    min-width: 350px;
+}
+
+.superHeroDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    width: 90%;
+}
+
+.super-heroName{
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    align-self: center;
+    font-size: 2em;
+    color: white;
+    margin: 15px 0px;
+    margin-bottom: 30px ;
+}
+
+.lessImportant{
+    color: lightslategray;
+}
+
+.bottomMargin20px{
+    margin-bottom: 20px;
+}
+
+
+/* Display Skills Properties */
+.skillRadius{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px ;
+    border-top-right-radius: 25px ;
+    /* box-shadow: 0px 0px 8px 2px gray; */
+}
+
+.skillProgress{
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 25px;
+    margin: 20px;
+    
+}
+
+
+.power-stats{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.skillName{
+    padding: 3px;
+    display: block;
+    text-align: center;
+    color: rgb(243, 234, 234);
+    font-size: 25px;
+}
+
+/* skill bar color */
+
+.skill-color-purple{
+    background-color:  brown;
+ }
+  
+.skill-color-green{
+    background-color: green;
+}
+
+.skill-color-yello{
+    background-color: #968143;
+}
+
+.skill-color-orange{
+    background-color: #d37115;
+}
+
+.skill-color-red{
+    background-color: #df5320;
+}
+
+.skill-color-blue{
+    background-color: #16b8d4;
+}
+
+.color-bg-blue{
+    background-color: rgb(22, 41, 148);
+}
+
+
+#notification-div{
+    color: white;
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in-out;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    background-color: red;
+    padding: 5px;
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+
+
+/* Details Section */
+
+.detailsSection{
+    font-size: 25px;
+    box-sizing: border-box;
+    width: 98%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-heading{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+#hero-biography{
+    align-self: flex-start;
+}
+
+
+
+/* Styling for different width  of devices*/
+
+@media screen and (max-width:965px){
+
+    .section-heading{
+        font-size: 30px;
+    }
+
+    #mainInfo{
+        flex-direction: column;
+    }
+
+    .skillProgress{
+        margin: 10px;
+    }
+
+    .heroImgContainer{
+        width: 60%;
+        align-self: center;
+    }
+
+    .super-heroName{
+        font-size: 1.3em;
+    }
+
+    .hero-img{
+        min-width: 150px;
+    }
+
+    .superHeroDetails{
+        margin-left: 0px;
+        align-self: center;
+    }
+
+    #navBar{
+        justify-content: center;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:330px){
+    
+    .navElement{
+        font-size: 18px;
+    }
+}
