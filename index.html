@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Superhero Hunter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/home-style.css'>
+    <link rel="icon" type="image/png" href="assets/icon.png ">
+    <script src="https://kit.fontawesome.com/c2e4f2d141.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--  nav-box have navigation and search bar -->
+    <div id="nav-box">
+        <div id="navBar">
+            <div class="navElement">
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    Home</a>
+            </div>
+            <div class="navElement">
+                <a href="favourite.html">
+                    <i class="fas fa-heart"></i>
+                    Favourites</a>
+            </div>
+            <div id="text">
+                <p>SuperHero Hunter</p>
+            </div>
+            <!-- Search bar -->
+
+            <div id="searchBar">
+                <div id="superhero-select">
+                    
+                    <input type="text" name="superhero_name" placeholder="Super Hero Name" id="nameInput">
+                </div>
+                <div class="btn" id="searchBtn">Hunt!</div>
+
+            </div>
+        </div>
+
+        <!-- adjustment of nvigation bar for smaller screens -->
+
+        <div id="hamBtn"><i class="fas fa-bars"></i></div>
+
+        <div id="ham-bar">
+            <div class="navElement">
+                <a href="index.html">
+                    <i class="fas fa-mask"></i>
+                    Home</a>
+            </div>
+            <div class="navElement">
+                <a href="favourite.html">
+                    <i class="fas fa-heart"></i>
+                    Favourites</a>
+            </div>
+        </div>
+
+
+        <!-- Text message to user to search -->
+
+        <div id="mainHeading">
+            <span id="headin-in">
+                 &nbsp; 
+                 <img style="width: 37px; height: 37px;" src="assets/supericon.com" alt=""> 
+                    Hunt Your Favourite Super Heroes here! &nbsp;
+                </span>
+        </div>
+
+
+        <!--bottom left cornor to show notifications to user for adding and removal of fav item -->
+        <div id="notification-div">
+            <!-- Error -->
+        </div>
+
+    </div>
+
+
+    <!-- SuperHeroBox-->
+
+    <div id="superHeroBox">
+        <!-- <div class="card-layout">
+            <div class="hero-id">
+                644
+            </div>
+            <div class="heroImgContainer">
+                <img class="hero-img" src="https:\/\/www.superherodb.com\/pictures2\/portraits\/10\/100\/791.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <div class="heroName">Superman</div>
+                <div class="favBtn">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- script file -->
+
+    <script src='scripts/home-script.js'></script>
+
+</body>
+</html>
